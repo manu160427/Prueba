@@ -1,0 +1,77 @@
+package edu.femxa.val;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	/*
+	 * pido un numero por teclado double al usuario y Return el numero
+	 * introducido por el usuario
+	 */
+
+	public static double pedirNumeroDouble() {
+
+		double numLeido = 0;
+
+		Scanner scanner = new Scanner(System.in);// me creo el objeto scaner
+													// para leer de teclado.
+		numLeido = scanner.nextDouble();// leo de teclado y asigno el valor a
+										// numLeido.
+
+		return numLeido;
+
+	}
+
+	public static void main(String[] args) {
+		
+		 double peso=0;
+		 double altura=0;
+		 double imc=0;
+		 
+		 System.out.println("introduzca peso en (Kg)");
+		 peso= pedirNumeroDouble();
+		 
+		 System.out.println("introduzca altura en (m)");
+		 altura= pedirNumeroDouble();
+		 
+		 imc= peso/(altura*altura);
+		 
+		 System.out.print("su imc es: "+imc);
+		 
+	
+		 
+		
+		
+		
+		
+		// Primer ejercio.
+		/*
+		 * pedir peso pedir altura calcular imc=peso/altura*altura mostrar
+		 * double peso = 81.7; peso en kg double altura = 1.852; estatura en m
+		 * double imc = peso/(altura*altura);
+		 * 
+		 * System.out.println(imc);
+		 */
+
+		/*
+		 * // Segundo ejercicio // obtengo peso // obtengo altura // calculo el
+		 * imc // y lo muestro con el Syso.
+		 * 
+		 * //creamos las variables double peso = 0; double altura = 0;
+		 * 
+		 * //Creamos el objeto escaner Scanner scanner = new Scanner(System.in);
+		 * System.out.println("introduzaca peso"); peso = scanner.nextDouble();
+		 * 
+		 * //creamos el objeto escaner2 Scanner scaner2 = new
+		 * Scanner(System.in); System.out.println("introduzca altura"); altura =
+		 * scaner2.nextDouble();
+		 * 
+		 * //calculamos el imc double imc = peso / (altura * altura);
+		 * 
+		 * //imprimimos imc por pantalla
+		 * System.out.println("su indice coreporal es " + imc);
+		 */
+
+	}
+
+}

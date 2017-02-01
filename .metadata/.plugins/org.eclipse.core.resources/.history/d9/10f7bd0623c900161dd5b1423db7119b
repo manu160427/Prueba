@@ -1,0 +1,58 @@
+import java.util.Scanner;
+
+
+public class Random {
+	
+	public static int pedirNumero(){
+		int numero_Intro=0;
+		Scanner sc = new Scanner(System.in);
+		numero_Intro= sc.nextInt();	
+		
+		return numero_Intro;
+		
+	}
+	
+	public static boolean numero_Acertado (int numero_Metido, int numeroAdivinado){
+		boolean acertado=true;
+		int intentos=5;
+		
+		while( intentos != 0){
+			if (numero_Metido < numeroAdivinado){
+				
+				System.out.println("el numero Introducido es menor que el numero adivinado ");
+				
+				
+			}
+			else if(numero_Metido>numeroAdivinado){
+				System.out.println("el numero Introducido es mayor que el numero adivinado");
+				
+			}
+			else {
+				
+				System.out.println("el numero "+ numero_Metido+ "es igual "+numeroAdivinado);
+			}
+			
+		
+		}
+		
+		
+		return acertado;
+	}
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		int numero_Metido=0;
+		int numeroAdivinado=(int)(100*Math.random()+1);
+		
+		numero_Metido=pedirNumero();
+	 
+      
+      
+
+	}
+
+}

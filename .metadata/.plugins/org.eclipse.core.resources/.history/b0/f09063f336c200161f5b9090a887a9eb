@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+
+public class Numero {
+	 
+	public static void main(String[] args) {
+		    int numero_Usuario=0;
+            int resto=0;
+            int num_Pares=0;
+            
+            Scanner scanner= null;
+            System.out.println("cuantos numeros pares quieres");
+            scanner = new Scanner(System.in);
+            numero_Usuario=scanner.nextInt();
+		  
+            for(int i = 0; num_Pares<=1000;  i++){
+		  
+			resto = i%2;
+			
+			
+			
+		    if ((resto==0) && (num_Pares<numero_Usuario)){
+				System.out.println("el numero es par"+i);
+				num_Pares++;
+			}
+		
+		}
+		
+		
+	}
+
+}

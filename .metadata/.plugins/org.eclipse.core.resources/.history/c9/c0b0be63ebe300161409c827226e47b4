@@ -1,0 +1,16 @@
+import java.util.List;
+
+
+
+
+public class Empleados_Dao {
+
+		public  List<EmpleadosDTO> consultaEmpleados(){
+			List<EmpleadosDTO>lista_e=null;
+			
+			return lista_e ;
+		}
+		
+
+	
+}

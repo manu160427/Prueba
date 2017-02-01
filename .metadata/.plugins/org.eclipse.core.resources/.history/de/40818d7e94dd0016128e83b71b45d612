@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+
+public class Menu {
+	public static boolean registarse(boolean registro){
+		boolean registro1=false;
+				
+				
+	    return registro1;	
+	}
+	public static boolean acceder(){
+		
+	}
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		int seleccion= -1;
+		
+	    while(seleccion!=0){
+	    	
+	    	//Try catch para evitar que el programa termine si hay un error
+			try{
+				System.out.println("Elige opción:\n1.- Registrarse" +
+						"\n2.- Acceder\n"+
+						"0.- Salir");
+				//Recoger una variable por consola
+				seleccion = Integer.parseInt(sc.nextLine()); 
+				
+				if(seleccion==1){
+					boolean registro=registrase();
+				}
+				else if(seleccion==2){
+					
+				}
+			
+			}
+			catch(Exception e){
+				System.out.println("ha ocurrido un error");
+				
+			}
+	    }
+		
+	}
+	
+	    
+	
+
+}

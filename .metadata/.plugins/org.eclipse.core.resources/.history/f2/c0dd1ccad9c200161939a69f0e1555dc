@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+
+public class PedirNotas {
+	 
+	
+	public static int pedirNota(){
+		   int numero = 0;
+		   Scanner sc = null;
+		   
+		   sc = new Scanner(System.in);
+		   numero = sc.nextInt();
+		   
+		   return numero;
+		   }
+	
+	public static void main(String[] args) {
+		
+		int nota_Introducida=0;
+		
+		do{
+			System.out.println("Dame nota");
+			nota_Introducida = pedirNota();
+			
+			if (nota_Introducida<5){
+			System.out.println("palmaste");
+			}
+			
+			
+		} while (nota_Introducida < 5);
+			
+			System.out.println("aprobaste. enhorabuena");
+		
+		
+
+	}
+
+}

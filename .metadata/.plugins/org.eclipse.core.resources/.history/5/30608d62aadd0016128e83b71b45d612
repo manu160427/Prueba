@@ -1,0 +1,105 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+
+public class Menu {
+	public static boolean registarse(String nombre, String contraseña) throws IOException{
+		boolean registro=false;
+		File file = new File("usuario");
+		File file1=new File("contraseña");
+		
+	    String aux=null;
+	    
+		FileWriter fichero= new FileWriter(file);
+		BufferedWriter introducir= new BufferedWriter(fichero);
+		
+		aux= nombre + contraseña;
+		
+		introducir.write(nombre);
+		introducir.newLine();
+		introducir.write(contraseña);
+		
+		if(file!=null){
+			System.out.println("registrado correctamente");
+		}
+		
+		introducir.close();
+		fichero.close();
+		
+	    return registro;	
+	}
+	
+	
+	
+	
+	public static boolean acceder(String nombre, String contraseña) throws IOException{
+		boolean acceder=false;
+		File file = new File("usuario");
+		File file1 = new File("contraseña");
+		
+		FileReader fichero= new FileReader(file);
+		BufferedReader leer= new BufferedReader(fichero);
+		
+		String nombre1=leer.readLine();
+		while(nombre1!=null){
+			
+		
+		System.out.println("leido correctamente "+nombre1);
+		nombre1=leer.readLine();
+		
+		}
+		
+	    leer.close();
+	    fichero.close();
+	    
+		return acceder;
+	}
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+        String nombre= null;
+        String contraseña=null;
+		int seleccion= -1;
+		
+	
+		
+	    while(seleccion!=0){
+	    	
+	    	//Try catch para evitar que el programa termine si hay un error
+			try{
+				System.out.println("Elige opción:\n1.- Registrarse" +
+						"\n2.- Acceder\n"+
+						"0.- Salir");
+				//Recoger una variable por consola
+				seleccion = Integer.parseInt(sc.nextLine()); 
+				
+				if(seleccion==1){
+					System.out.println("introduce un nombre");
+					nombre=sc.nextLine();
+					
+					System.out.println("introduce una contraseña");
+					   contraseña=sc.nextLine();
+					   registarse(nombre,contraseña);
+				}
+				else if(seleccion==2){
+				        acceder(nombre,contraseña);
+				}
+			
+			}
+			catch(Exception e){
+				System.out.println("ha ocurrido un error");
+				
+			}
+	    }
+		
+	}
+
+	    
+	
+
+}

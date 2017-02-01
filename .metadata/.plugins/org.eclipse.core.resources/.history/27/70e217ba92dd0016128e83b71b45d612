@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+
+public class Menu {
+	public static boolean registarse(){
+		boolean registro=false
+				
+				;
+	    return registro;	
+	}
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		int seleccion= -1;
+		
+		System.out.println("Seleccione una opcion: ");
+	    while(seleccion!=0){
+	    	
+	    	
+	    }
+	}
+
+}

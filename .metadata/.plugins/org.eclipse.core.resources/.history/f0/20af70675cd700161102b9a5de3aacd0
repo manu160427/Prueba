@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+
+public class Principal {
+
+	public static int pedirEdad(){
+		int edad;
+		Scanner sc=null;
+		
+		edad=sc.nextInt();
+		
+	}
+	public static String pedirNombre(){
+		String nombre;
+		Scanner sc =null;
+		
+		nombre=sc.nextLine();
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

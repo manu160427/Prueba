@@ -1,0 +1,13 @@
+import java.awt.List;
+
+
+public class Empleados_Dao {
+
+		public  List<EmpleadosDTO> consultaEmpleados(){
+			
+			return null;
+		}
+		
+
+	
+}

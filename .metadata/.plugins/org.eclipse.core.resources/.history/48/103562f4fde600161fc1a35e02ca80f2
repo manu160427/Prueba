@@ -1,0 +1,55 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.util.Properties;
+
+
+public class Idiomas {
+	
+  private static final String PREFIJO="Story_";
+  private static final String SUFIJO=".properties";
+ private static final String CLAVE_F_SALIDA="";
+ 
+ private static final String CLAVE_F_INICIO=".properties";
+ private static final String CLAVE_CUERPO=".properties";
+ private static final String CLAVE_FINAL=".properties";
+  public static void main(String[] args) {
+		
+		
+		try {
+			
+			Properties propiedades =null;
+			String idioma = args[0];
+			String nombre_fichero= PREFIJO+idioma+SUFIJO;
+			String nfs= null;
+			String principio;
+			String cuerpo;
+			String desenlace;
+			FileReader fr= new FileReader(nombre_fichero);
+			
+			  propiedades=new Properties();
+			  propiedades.load(fr);
+			   
+			  nfs=propiedades.getProperty(CLAVE_F_SALIDA);
+			  FileWriter fw = new FileWriter(nfs):
+			  BufferedWriter bw= new BufferedWriter(out);
+			  
+			  principio= 
+				  
+		} catch (Throwable  t) {
+			
+			
+		}
+		
+		//propiedades.load(inStream);
+		
+		
+		
+		
+		
+
+	}
+
+}

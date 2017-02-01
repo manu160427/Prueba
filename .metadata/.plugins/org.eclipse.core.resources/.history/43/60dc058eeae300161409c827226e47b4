@@ -1,0 +1,13 @@
+import java.awt.List;
+
+
+public class Empleados_Dao {
+
+		public static List <EmpleadosDTO> consultaEmpleadosDepartamentos(int departamento){
+			
+			return null;
+		}
+		
+
+	
+}

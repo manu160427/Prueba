@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+
+
+public class Empleados_Dao {
+
+		public  List<EmpleadosDTO> consultaEmpleados(){
+			
+			List<EmpleadosDTO>lista_e=null;
+			lista_e = new ArrayList<EmpleadosDTO>();
+			
+			lista_e.add(arg0);
+			//conexion, ejecutar consulta, forecah y crear un objeto empleados dto, add ese dto a una lista, liberar recursos.
+			
+			return lista_e ;
+		}
+		
+
+	
+}

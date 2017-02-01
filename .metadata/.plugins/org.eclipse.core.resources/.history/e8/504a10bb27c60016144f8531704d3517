@@ -1,0 +1,94 @@
+import java.util.Scanner;
+
+  
+		public class PalabrasYLetras {
+			
+			private String palabra;
+			private String  letra;
+		
+			
+		
+			public String getPalabra() {
+				return palabra;
+			}
+		
+			public void setPalabra(String palabra) {
+				this.palabra = palabra;
+			}
+		
+			public String getLetra() {
+				return letra;
+			}
+		
+			public void setLetra(String letra) {
+				this.letra = letra;
+	    }
+
+
+			public static String pedirLetra(){
+		   	
+			    String letra = null;
+			    Scanner sc = null;
+		   		   
+			   sc = new Scanner(System.in);
+			   letra = sc.nextLine();
+			   
+			   return letra;
+			   
+		    }
+			
+			public static boolean esta(String letra, String palabra){
+				boolean b_dev=false;
+				int contador=0;
+				
+			    while (!encontrado && !final ){
+			    	
+			    	
+			    	contador++;
+			    	
+			    	
+			    }
+			    
+			    
+				
+				return false;
+				
+			}
+
+
+			
+			public static String pedirPalabra(){
+			String palabra;
+			Scanner sc = null;
+		
+				sc = new Scanner (System.in);
+				palabra= sc.nextLine();
+			  
+			return palabra;
+			}
+	
+	
+			public static void main(String[] args) {
+				
+				String palabra = null;
+				String letra = null;
+				
+				PalabrasYLetras esta=new PalabrasYLetras();
+				for(int i=0; i <2 ; i++ ){
+					System.out.print("Introduzca su palabra: ");
+				    palabra= pedirPalabra();
+				    System.out.println("Introduzca su letra");
+				    letra = pedirLetra();
+				
+				}
+				
+				
+				
+				
+				
+				
+	
+	
+	
+			}
+}

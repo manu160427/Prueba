@@ -1,0 +1,9 @@
+INDEX VERSION 1.127
+C:\Users\Alumno\Desktop\trabajos eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4029192945.index
+\testingbasico\src\main\java
+C:\Users\Alumno\Desktop\trabajos eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2618495667.index
+\EjemplosBasicos\src
+C:\Users\Alumno\Desktop\trabajos eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3014711032.index
+\aopsample\src\main\java
+C:\Users\Alumno\Desktop\trabajos eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2300141980.index
+\aopsample\src\main\java

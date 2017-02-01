@@ -1,0 +1,38 @@
+package edu.femxa.val;
+
+import java.util.Scanner;
+
+public class Principal {
+	public static void main (String [] args){
+		//pedir peso 
+		//pedir altura
+		//calcular imc=peso/altura*altura
+		//mostrar
+		
+		//double peso =  81.7;//peso en kg	
+		//double altura = 1.852;// estatura en m
+		//double imc = peso/(altura*altura);
+		
+		//System.out.println(imc);
+		
+		
+		//obtengo peso
+		//
+		double peso = 0;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("introduzaca peso");
+		peso = scanner.nextDouble();
+		
+		double altura = 0;
+		Scanner scaner2 = new Scanner(System.in);
+		System.out.println("introduzca altura");
+		altura = scaner2.nextDouble();
+		
+		double imc = peso/(altura*altura);
+		
+		System.out.println("su indice coreporal es"      +imc);
+	
+		
+	}
+
+}

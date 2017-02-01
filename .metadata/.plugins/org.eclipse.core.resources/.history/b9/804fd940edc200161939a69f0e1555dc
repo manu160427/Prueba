@@ -1,0 +1,11 @@
+
+public class main {
+
+	public static void main(String[] args) {
+	
+		Persona persona = null;
+		persona= new Persona ("Antonio" ,33);
+
+	}
+
+}

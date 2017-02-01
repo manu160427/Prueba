@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;edu.femxa.val.ejernavi&apos; to &apos;Juntar palabras/src&apos;&#x0D;&#x0A;- Original project: &apos;EjemplosBasicos&apos;&#x0D;&#x0A;- Destination element: &apos;Juntar palabras/src&apos;&#x0D;&#x0A;- Original element: &apos;EjemplosBasicos/src/edu.femxa.val.ejernavi&apos;" description="Copy package" destination="=Juntar palabras/src" element1="/src&lt;edu.femxa.val.ejernavi" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1484070255499" version="1.0"/>
+</session>

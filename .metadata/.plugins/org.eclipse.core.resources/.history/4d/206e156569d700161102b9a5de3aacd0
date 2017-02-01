@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+
+public class Juntar_Palabras{
+	
+
+	  public static String pedir_Cadena(){
+		  String cadena=null;
+		  
+		  Scanner sc= null;
+		  sc= new Scanner(System.in);
+		  
+		  cadena=sc.nextLine();
+		  
+		  return cadena;
+		  
+	  }
+	  public static borrar_Espacios(String cadena){
+		  
+		  int ultimaCadena=cadena.length()-1;
+		  
+		  
+		  
+	  
+		  
+		  
+	  }
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

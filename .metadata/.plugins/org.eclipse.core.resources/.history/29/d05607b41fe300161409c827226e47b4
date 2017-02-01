@@ -1,0 +1,35 @@
+package edu.femxa.val.basededatos;
+
+public class Consultas {
+	
+	public static final String CONSULTA_EMPLEADOS_SALARIO_ASC = "SELECT * from EMPLOYEES ORDER BY SALARY DESC";
+	public static final String 
+	CONSULTA_EMPLEADOS_SALARIO_ADMON_E_IT 
+	= "SELECT first_name, salary FROM "
+			+ "EMPLOYEES where department_id IN "
+			+ "(SELECT department_id FROM "
+			+ "DEPARTMENTS WHERE department_name = "
+			+ "'Administration' or "
+			+ "department_name = 'IT')";
+	
+	public static final String 
+	ACTUALIZAR_EMPLEADOS_SALARIO_ADMON_E_IT 
+	= "UPDATE EMPLOYEES SET salary = (salary * 1.2) "
+			+ "where department_id IN "
+			+ "(SELECT department_id FROM "
+			+ "DEPARTMENTS WHERE department_name = "
+			+ "'Administration' or "
+			+ "department_name = 'IT')";
+
+//AQUI TENEMOS LA CREACION DE UN TRIGGER 
+//	//--CREATE OR REPLACE TRIGGER tigre_1_empleados
+//	--AFTER INSERT OR UPDATE OF salary ON employees
+//	--FOR EACH ROW
+//	--BEGIN
+//	--INSERT INTO HISTORIAL_SUELDO(SALARIO_ANTERIOR,SALARIO_SUBIDO,FECHA,EMPLOYEE_ID)
+//	--VALUES(:OLD.SALARY,:NEW.SALARY, SYSDATE,:OLD.EMPLOYEE_ID);
+//	--DBMS_OUTPUT.PUT_LINE ('Salario ' ||:NEW.salary);
+//	--END;
+//	--SET SERVEROUTPUT ON;
+//	UPDATE EMPLOYEES SET SALARY = SALARY + (SALARY*0.2) WHERE DEPARTMENT_ID = :dpto;
+}

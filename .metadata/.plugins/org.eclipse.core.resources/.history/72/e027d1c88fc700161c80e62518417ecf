@@ -1,0 +1,23 @@
+
+public class Cesar {
+
+	public void mostrarCodChars(String cadena){//recorrer una cadena 
+		
+		int longi=cadena.length();
+		int numero_carac=0;
+		char caracter=0;
+	     for (int pos=0; pos<longi; pos++){
+	    	 caracter=cadena.charAt(pos);
+	    	 numero_carac=(int)caracter;
+	    	 
+	    	 System.out.println(cadena.charAt(pos));
+	     }
+		
+	}
+	public static void main(String[] args) {
+			
+			Cesar cesar=null;
+			cesar=new Cesar();
+			cesar.mostrarCodChars("LOLIPOP");
+	}
+}

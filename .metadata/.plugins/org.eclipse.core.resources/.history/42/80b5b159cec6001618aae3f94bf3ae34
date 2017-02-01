@@ -1,0 +1,32 @@
+
+public class MostrarNumeros {
+	/*	HACED UN MÉTODO QUE DADA UNA CADENA, MUESTRE CADA UNA DE LAS LETRAS CON UN BUCLE FOR
+		HACED UN MÉTODO QUE DADA UNA CADENA Y UN NÚMERO N, MUESTRE LOS N PRIMEROS NÚMEROS DE LA CADENA
+		HACED UN MÉTODO QUE DADA UNA CADENA Y UN NÚMERO N, MUESTRE LOS N ÚLTIMOS NÚMEROS DE LA CADENA
+		HACED UN MÉTODO QUE DADA UNA CADENA Y UNA LETRA, DEVUELVA EL NÚMERO DE VECES QUE APARECE ESA LETRA EN ESA PALABRA*/
+		
+	    String cadena=null;
+		int numero=0;
+	
+		public static void  mostrarNumeros(String cadena, int num){
+			int i=0;
+	        
+			
+	       for( i=0; i<num; i++){
+	    	   
+	    	   System.out.println("la cadena imprime" + cadena.charAt(num));
+	    	   
+	    	   
+	       }
+		 
+		 
+		}
+	
+		public static void main(String[] args) {
+			
+		     mostrarNumeros("Manuel", 3);
+	
+	
+   }
+}
+

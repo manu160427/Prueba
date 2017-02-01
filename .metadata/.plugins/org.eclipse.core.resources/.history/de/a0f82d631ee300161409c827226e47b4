@@ -1,0 +1,30 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+
+public class Triggers {
+
+	public static void main(String[] args) {
+		Connection conn = null;
+		try{
+			DriverManager.registerDriver (new oracle.jdbc.driver.OracleDriver());
+			conn = DriverManager.getConnection ("jdbc:oracle:thin:@127.0.0.1:1521:xe", "HR", "password");
+		    conn.setAutoCommit(false);
+			consultaEmpleados(conn);
+		    subeSueldo(conn);
+		    consultaEmpleados(conn);
+		    conn.commit();
+		    
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Error ejecutando bd");
+			conn.rollback();
+			
+		} finally {
+			liberarRecursos(conn);
+		}
+	}
+	
+}

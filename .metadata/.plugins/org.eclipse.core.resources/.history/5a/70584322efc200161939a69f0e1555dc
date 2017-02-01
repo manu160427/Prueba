@@ -1,0 +1,22 @@
+
+public class main {
+
+	public static void main(String[] args) {
+	
+		Persona persona = null;
+		Persona persona2 = null;
+		
+		persona= new Persona ("Antonio" ,33);		
+		persona.mostrarPersona();
+		
+		
+		persona2= new Persona("Javier", 33);
+		persona2.mostrarPersona();
+		
+		
+		
+		
+
+	}
+
+}

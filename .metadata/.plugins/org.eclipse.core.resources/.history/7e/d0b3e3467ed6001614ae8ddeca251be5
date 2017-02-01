@@ -1,0 +1,22 @@
+
+public class Palindromo {
+
+	public static void main(String[] args) {
+		int inicio = 0;
+		String Palabra="dabale arroz a la zorra el abad";
+		int fin= Palabra.length()-1;
+		boolean es_Palindroma = false;
+		
+		while ((inicio<fin) && (!es_Palindroma)){
+			 
+			if (Palabra.charAt(inicio)==Palabra.charAt(fin)){				
+				inicio++;
+				fin--;
+			} else {
+				es_Palindroma = true;
+			}
+		}
+
+	}
+
+}

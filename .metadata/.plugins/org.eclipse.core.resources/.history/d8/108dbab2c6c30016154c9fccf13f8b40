@@ -1,0 +1,10 @@
+
+public class Cadena {
+	public static void main(String[] args) {
+		 
+		System.out.println("primera palabra="+ args[0]);
+		System.out.println("Segunda palabra"+args[1]);
+		System.out.println("Tercera palabra="+args[2]);
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class Principall {
+
+	public static void main(String[] args) {
+		Persona persona1 = null;//declaro variable y la inicializo.
+     	persona1= new Persona("manuel",33);//si tiene memoria ya tiene hueco.
+     
+     	System.out.println(persona1.nombre);
+     	System.out.println(persona1.edad);
+     	
+     	Persona persona2= null;
+     	persona2 = new Persona("pepe", 44);
+     	
+     	System.out.println(persona2.nombre);
+     	System.out.println(persona2.edad);
+	}
+
+}

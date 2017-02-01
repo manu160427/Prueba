@@ -1,0 +1,44 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.util.Properties;
+
+
+public class Idiomas {
+
+	public static void main(String[] args) {
+		
+		System.out.println(args[0]);
+		
+		String parametro = args[0];
+		Properties fichero_Idiomas=null;
+		
+		fichero_Idiomas.load(arg0);
+		fichero_Idiomas.load(inStream);
+		fichero_Idiomas.load(inStream);
+		
+		fichero_Idiomas=new Properties();
+		FileReader fr=null;
+		Filewriter fw=null;
+		BufferedReader bw=null;
+		
+		switch(parametro){
+		case "it": fr=new FileReader("");
+		fw=new FileWriter(arg0);
+		break;
+		
+		case "en": fr=new FileWriter("");
+		fw=new FileWriter("");
+		break;
+		
+		case"es": fr=new FileReader("");
+		fw=new FileWriter("");
+		
+		
+		
+		
+		}
+
+	}
+
+}

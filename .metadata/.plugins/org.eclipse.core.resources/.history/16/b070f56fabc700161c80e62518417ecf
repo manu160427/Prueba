@@ -1,0 +1,65 @@
+//escribir un metodo en java que implemente en el descifrado cesar es un tipo de cifrado en el que una 
+//letra en estado original es reemplazada por otra letra que se encuentra en otra posicion un numero 
+//determinacion de espacios en el alfabeto
+
+public class Cesar {
+
+//	public void mostrarCodChars(String cadena){//recorrer una cadena 
+//		
+//		int longi=cadena.length();
+//		int numero_carac=0;
+//		char caracter=0;
+//	     for (int pos=0; pos<longi; pos++){
+//	    	 caracter=cadena.charAt(pos);
+//	    	 numero_carac=(int)caracter;
+//	    	 
+//	    	 System.out.println(caracter +"="+ numero_carac);
+//	     }
+	     
+	 public static String codificar(String estring, int clave){
+		 
+		 int longi = estring.length();
+		 int numero_carac=0;
+		 char caracter=0;
+		 char caracter_cifrado=0;
+		 
+		 for (int pos=0;pos<longi;pos++){
+			
+			 
+			 if (caracter == ' ' ){
+				 
+				return estring; 
+		     }
+			 
+			 else{
+				 				 
+				 caracter=estring.charAt(pos);
+				 numero_carac=(int)caracter;
+				 caracter_cifrado=(char)(caracter+clave);
+				 System.out.println(caracter_cifrado);
+			 }
+			 
+			 
+		 }
+		 
+		 
+		 return estring;
+	 }
+		
+	
+	public static void main(String[] args) {
+//			
+//			Cesar cesar=null;
+//			cesar=new Cesar();
+//			cesar.mostrarCodChars("LOLIPOP");
+//			
+//			int j=81;
+//			char c=(char)j;
+//			System.out.println(c);
+		
+		Cesar cesar=null;
+		cesar= new Cesar();
+		
+		cesar.codificar("VALERIANO",3);
+	}
+}

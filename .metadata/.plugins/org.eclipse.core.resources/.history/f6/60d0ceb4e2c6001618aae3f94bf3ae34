@@ -1,0 +1,9 @@
+
+public class Alumno extends Persona {
+
+	public Alumno(String nombre_r, int edad_r) {
+		super(nombre_r, edad_r);
+		// TODO Auto-generated constructor stub
+	}
+
+}

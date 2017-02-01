@@ -1,0 +1,26 @@
+
+public class Palindromo {
+
+	public static void main(String[] args) {
+		int inicio = 0;
+		String Palabra="arañara";
+		int fin= Palabra.length()-1;
+		boolean es_Palindroma = false;
+		
+		while ((inicio<fin) && (!es_Palindroma)){
+			 
+			if (Palabra.charAt(inicio)==Palabra.charAt(fin)){				
+				inicio++;
+				fin--;
+			} 
+		
+		}
+		
+		if (!es_Palindroma)
+			System.out.println(Palabra + " es un PALINDROMO");
+		else
+			System.out.println(Palabra + " NO es un palindromo");
+
+	}
+
+}

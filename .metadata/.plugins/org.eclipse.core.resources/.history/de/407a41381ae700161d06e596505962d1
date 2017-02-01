@@ -1,0 +1,23 @@
+
+public class ejecutar_Argumentos {
+
+	public static void main(String[] args) {
+		int contador=0;
+		int idioma = args.length;
+		String palabra_Fin=null;
+		String argumentos []= new argumentos[20];
+		
+		for(int i=0; i<idioma; i++){
+			
+			palabra_Fin=palabra_Fin+argumentos[i];
+			
+		}
+        
+		if(){
+			
+			
+		}
+	
+
+}
+}

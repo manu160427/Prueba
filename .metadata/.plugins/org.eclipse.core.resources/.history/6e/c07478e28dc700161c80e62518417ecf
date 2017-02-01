@@ -1,0 +1,16 @@
+
+public class Cesar {
+
+	public void mostrarCodChars(String cadena){//recorrer una cadena 
+		
+		int longi=cadena.length();
+	     for (int pos=0; pos<longi; pos++){
+	    	 
+	    	 System.out.println(cadena.charAt(pos));
+	     }
+		
+	}
+	public static void main(String[] args) {
+		
+	}
+}

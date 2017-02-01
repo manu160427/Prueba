@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\Users\Alumno\Downloads" key="org.eclipse.jdt.ui.lastextjar"/>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="updateSimilarElements"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+		<item value="false" key="updateTextualMatches"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item value="2" key="layout"/>
+		<item value="true" key="group_libraries"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1481563395158&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+		<item value="1" key="rootMode"/>
+		<item value="false" key="linkWithEditor"/>
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="true" key="create_unimplemented"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
+		<item value="528" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="696" key="DIALOG_HEIGHT"/>
+		<item value="544" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Juntar palabras\javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="C:\Program Files\Java\jdk1.8.0_45\bin\javadoc.exe;C:\Users\Alumno\AppData\Roaming\Microsoft\Windows\Network Shortcuts\javadoc;C:\Users\Alumno\Downloads\javaDoc;C:\Users\Alumno\Downloads\java" key="javadoc_command_history"/>
+		<item value="1.8" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Juntar palabras\doc" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="Array2Fichero">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Array2Fichero\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Array2Fichero\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ListarPersonas">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\ListarPersonas\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\ListarPersonas\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="MenuAccederRegistrase">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\MenuAccederRegistrase\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\MenuAccederRegistrase\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="TRIGGERS">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\TRIGGERS\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\TRIGGERS\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Directorios_ocultos">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Directorios_ocultos\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Directorios_ocultos\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JavaEclipse">
+				<item value="C:\Users\Alumno\git\JavaEclipse\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\git\JavaEclipse\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JavaExamples">
+				<item value="C:\Users\Alumno\git\JavaExamples\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\git\JavaExamples\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Excepciones">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Excepciones\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Excepciones\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="String">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\String\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\String\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RemoteSystemsTempFiles">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\RemoteSystemsTempFiles\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\RemoteSystemsTempFiles\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="UsoWhile">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\UsoWhile\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\UsoWhile\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Proyecto_IMC2">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Proyecto_IMC2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Proyecto_IMC2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Cadena 2">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Cadena 2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Cadena 2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ProyectoDAO_DTO">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\ProyectoDAO_DTO\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\ProyectoDAO_DTO\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="EjemplosBasicos">
+				<item value="C:\Users\Alumno\git\FEMXA_211_JAVA_BASICO\EjemplosBasicos\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\git\FEMXA_211_JAVA_BASICO\EjemplosBasicos\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Numeros_Pares">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Numeros_Pares\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Numeros_Pares\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Adivina_Un_Numero">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Adivina_Un_Numero\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Adivina_Un_Numero\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CrearFicheroYborrar">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\CrearFicheroYborrar\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\CrearFicheroYborrar\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ListarDirectorios">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\ListarDirectorios\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\ListarDirectorios\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Fichero_">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Fichero_\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Fichero_\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="pedir notas">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\pedir notas\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\pedir notas\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Suma_Arrays">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Suma_Arrays\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Suma_Arrays\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Fichero_Properties">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Fichero_Properties\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Fichero_Properties\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Proyecto_IMC">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Proyecto_IMC\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Proyecto_IMC\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="testingbasico">
+				<item value="C:\Users\Alumno\git\SpringGit5\testingbasico\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\git\SpringGit5\testingbasico\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Cadena">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Cadena\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Cadena\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Herencia">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Herencia\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Herencia\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="BaseDatosConexion">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\BaseDatosConexion\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\BaseDatosConexion\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="String2">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\String2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\String2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Palindroma">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Palindroma\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Palindroma\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Argumentos_CMD">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Argumentos_CMD\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Argumentos_CMD\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CodificarYDecodificar">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\CodificarYDecodificar\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\CodificarYDecodificar\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="UsoDelFor">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\UsoDelFor\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\UsoDelFor\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Juntar palabras">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Juntar palabras\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Juntar palabras\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="XML">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\XML\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\XML\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="NumeroMayor">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\NumeroMayor\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\NumeroMayor\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Persona_Mayor">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Persona_Mayor\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Persona_Mayor\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Que _Hace_Avanzado">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Que _Hace_Avanzado\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Que _Hace_Avanzado\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CodigoCesar">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\CodigoCesar\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\CodigoCesar\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="aopsample">
+				<item value="C:\Users\Alumno\git\SpringGit5\aopsample\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\git\SpringGit5\aopsample\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Proyecto_BD">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Proyecto_BD\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Proyecto_BD\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Dni">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Dni\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Dni\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Que hace">
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Que hace\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alumno\Desktop\trabajos eclipse\Que hace\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="SourceActionDialog.methods">
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="2" key="pageIndex"/>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item value="616" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="567" key="DIALOG_HEIGHT"/>
+		<item value="500" key="DIALOG_X_ORIGIN"/>
+		<item value="60" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="AddGetterSetterDialog">
+		<item value="false" key="SortOrdering"/>
+		<item value="false" key="RemoveFinal"/>
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+</section>

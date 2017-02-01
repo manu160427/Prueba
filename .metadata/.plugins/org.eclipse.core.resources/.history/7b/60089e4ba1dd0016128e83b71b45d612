@@ -1,0 +1,66 @@
+import java.io.File;
+import java.util.Scanner;
+
+
+public class Menu {
+	public static boolean registarse(String nombre, String contraseña){
+		boolean registro=false;
+		File file = new File("hola");
+		
+				
+	    return registro;	
+	}
+	
+	
+	
+	
+	public static boolean acceder(String nombre, String contraseña){
+		boolean acceder=false;
+		File file = new File("hola");
+		return acceder;
+	}
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+        String nombre= null;
+        String contraseña=null;
+		int seleccion= -1;
+		
+	
+		
+	    while(seleccion!=0){
+	    	
+	    	//Try catch para evitar que el programa termine si hay un error
+			try{
+				System.out.println("Elige opción:\n1.- Registrarse" +
+						"\n2.- Acceder\n"+
+						"0.- Salir");
+				//Recoger una variable por consola
+				seleccion = Integer.parseInt(sc.nextLine()); 
+				
+				if(seleccion==1){
+					System.out.println("introduce un nombre");
+					nombre=sc.nextLine();
+					
+					System.out.println("introduce una contraseña");
+					contraseña=sc.nextLine();
+					
+					boolean registro=registarse(nombre,contraseña);
+				}
+				else if(seleccion==2){
+					boolean acceder=acceder(nombre,contraseña);
+				}
+			
+			}
+			catch(Exception e){
+				System.out.println("ha ocurrido un error");
+				
+			}
+	    }
+		
+	}
+
+	    
+	
+
+}

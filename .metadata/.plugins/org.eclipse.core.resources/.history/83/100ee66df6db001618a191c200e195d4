@@ -1,0 +1,18 @@
+
+public class Suma {
+
+	public static void main(String[] args) {
+	
+		int array[] = {12,34,56,4,3,2,1,8,9,10};
+		double media = 0.0;
+		
+		for (int i=0; i < array.length; i++) {
+			 media = media + array[i];
+			}
+		
+		media = media / array.length;
+		System.out.println("la media es: "+media);
+
+	}
+
+}

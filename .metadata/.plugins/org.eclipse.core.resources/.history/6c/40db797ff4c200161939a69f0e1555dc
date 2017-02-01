@@ -1,0 +1,37 @@
+
+public class main {
+
+	public static void main(String[] args) {
+	
+		Persona persona= null;
+		Persona persona2= null;
+		Persona persona3=null;
+		Persona persona4=null;
+		Persona persona5=null;
+		
+		persona= new Persona ("Antonio",33);		
+		persona.mostrarPersona();
+		
+		
+		persona2= new Persona("Javier",33);
+		persona2.mostrarPersona();
+		
+		
+		persona3= new Persona ("Pepe",22);
+		persona3.mostrarPersona();
+		
+		persona4=new Persona("jose",21);
+		persona4.mostrarPersona();
+		
+		persona5=new Persona("miguel",26);
+		persona5.mostrarPersona();
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
